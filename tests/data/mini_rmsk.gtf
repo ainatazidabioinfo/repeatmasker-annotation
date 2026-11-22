@@ -1,0 +1,15 @@
+# Jeu de test SYNTHÉTIQUE au format GTF RepeatMasker (coordonnées inventées).
+# Il reproduit les cas rencontrés dans une vraie annotation :
+#  - plusieurs loci partagent le même transcript_id (AluY, L1P5) ;
+#  - une ligne dupliquée à l'identique ;
+#  - une annotation incomplète (repFamily vide) ;
+#  - un brin invalide.
+chr1	rmsk	exon	1001	1300	2000	+	.	gene_id "AluY"; transcript_id "AluY"; repClass "SINE"; repFamily "Alu";
+chr1	rmsk	exon	5001	5310	1900	-	.	gene_id "AluY"; transcript_id "AluY"; repClass "SINE"; repFamily "Alu";
+chr2	rmsk	exon	201	500	1850	+	.	gene_id "AluY"; transcript_id "AluY"; repClass "SINE"; repFamily "Alu";
+chr1	rmsk	exon	10001	16000	5000	+	.	gene_id "L1P5"; transcript_id "L1P5"; repClass "LINE"; repFamily "L1";
+chr3	rmsk	exon	30001	36100	4800	-	.	gene_id "L1P5"; transcript_id "L1P5"; repClass "LINE"; repFamily "L1";
+chr3	rmsk	exon	30001	36100	4800	-	.	gene_id "L1P5"; transcript_id "L1P5"; repClass "LINE"; repFamily "L1";
+chr2	rmsk	exon	8001	8450	1200	+	.	gene_id "MER21B"; transcript_id "MER21B"; repClass "LTR"; repFamily "ERVL";
+chr2	rmsk	exon	9001	9200	900	+	.	gene_id "LTR6A"; transcript_id "LTR6A"; repClass "LTR"; repFamily "";
+chr4	rmsk	exon	100	400	800	.	.	gene_id "MER21B"; transcript_id "MER21B"; repClass "LTR"; repFamily "ERVL";
