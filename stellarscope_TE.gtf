@@ -1,0 +1,6 @@
+chr1	RepeatMasker	exon	1001	1300	2000	+	.	gene_id "AluY"; transcript_id "AluY:chr1:1001:1300:+"; locus "AluY:chr1:1001:1300:+"; repClass "SINE"; repFamily "Alu";
+chr1	RepeatMasker	exon	5001	5310	1900	-	.	gene_id "AluY"; transcript_id "AluY:chr1:5001:5310:-"; locus "AluY:chr1:5001:5310:-"; repClass "SINE"; repFamily "Alu";
+chr2	RepeatMasker	exon	201	500	1850	+	.	gene_id "AluY"; transcript_id "AluY:chr2:201:500:+"; locus "AluY:chr2:201:500:+"; repClass "SINE"; repFamily "Alu";
+chr1	RepeatMasker	exon	10001	16000	5000	+	.	gene_id "L1P5"; transcript_id "L1P5:chr1:10001:16000:+"; locus "L1P5:chr1:10001:16000:+"; repClass "LINE"; repFamily "L1";
+chr3	RepeatMasker	exon	30001	36100	4800	-	.	gene_id "L1P5"; transcript_id "L1P5:chr3:30001:36100:-"; locus "L1P5:chr3:30001:36100:-"; repClass "LINE"; repFamily "L1";
+chr2	RepeatMasker	exon	8001	8450	1200	+	.	gene_id "MER21B"; transcript_id "MER21B:chr2:8001:8450:+"; locus "MER21B:chr2:8001:8450:+"; repClass "LTR"; repFamily "ERVL";
