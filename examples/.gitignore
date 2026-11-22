@@ -1,0 +1,10 @@
+# Données : ne jamais versionner les annotations ou sorties volumineuses
+*.gtf
+*.gtf.gz
+*.bed
+*.csv
+!tests/data/*.gtf
+!examples/*
+__pycache__/
+.pytest_cache/
+*.pyc
